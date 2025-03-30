@@ -1,0 +1,101 @@
+import { StyleSheet } from 'react-native';
+
+const listJobStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    paddingHorizontal: 24,
+    paddingVertical: 24,
+  },
+  safeContainer: {
+    flex: 1,
+    paddingHorizontal: 24,
+    paddingTop: 24,
+    backgroundColor: '#f0f4f7',
+  },
+  logoContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center', 
+    marginBottom: 20,
+    paddingHorizontal: 16,
+  },
+  hireLogo: {
+    width: 40,
+    height: 40,
+    resizeMode: 'contain',
+  },
+  header: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#f86802',
+    marginLeft: 10, 
+  },
+  searchInput: {
+    borderWidth: 1,
+    borderColor: '#ccc',
+    borderRadius: 12,
+    padding: 14,
+    marginBottom: 24,
+    backgroundColor: '#fff',
+    marginHorizontal: 8,
+  },
+  jobCard: {
+    padding: 20,
+    marginBottom: 16,
+    marginHorizontal: 8,
+    borderWidth: 1,
+    borderColor: '#e0e0e0',
+    borderRadius: 15,
+    backgroundColor: '#f86802',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 4,
+    elevation: 2,
+  },
+  jobTitle: {
+    fontSize: 20,
+    fontWeight: '700',
+    marginBottom: 8,
+    color: 'white',
+  },
+  jobText: {
+    marginBottom: 4,
+    color: 'white',
+  },
+  saveText: {
+    color: 'white',
+    marginVertical: 6,
+    fontWeight: '600',
+  },
+  savedText: {
+    color: '#92140C',
+    marginVertical: 6,
+    fontWeight: '600',
+  },
+  logoImage: {
+    width: 80,
+    height: 80,
+    marginBottom: 12,
+    alignSelf: 'center',
+    borderRadius: 10,
+  },
+  floatingButton: {
+    position: 'absolute',
+    bottom: 40,
+    right: 30,
+    backgroundColor: '#3c8efc',
+    borderRadius: 30,
+    width: 60,
+    height: 60,
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 4,
+    elevation: 8,
+  },
+});
+
+export default listJobStyles;
